@@ -2,7 +2,7 @@ name: Bare Minimum Requirements
 
 on: [push, pull_request]
 
-job:
+jobs:
   test:
     runs-on: ubuntu-latest
     steps:
